@@ -1,6 +1,0 @@
-#!/bin/bash
-mkdir -p ~/projects
-git clone https://github.com/bob-crutchley/vim ~/projects/vim
-cd ~/projects/vim 
-./install
-
