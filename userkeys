@@ -1,0 +1,8 @@
+#!/bin/bash
+sudo useradd jenkins
+sudo runuser -l jenkins -c 'mkdir .ssh' 
+sudo runuser -l jenkins -c 'chmod -R 700 .ssh'
+sudo runuser -l jenkins -c 'cd .ssh'
+sudo runuser -l jenkins -c 'touch .ssh/authorized_keys'
+sudo runuser -l jenkins -c 'echo "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDUy2DHfkFmFzzJUDilBUIhkcWstuGIbIZXvMh1kUC9I3QOfqvTiu8TCDRxP0XOm8EYfmLL7TgKsfk5m8T5VP9FqrVV0LN7x2kzJvieOmhWLfjIqOIShmWlrJkLscyI4AeYFafbtaStl8LVCkVN9zxPTo9qJbodVen+IRG3fHUJnjSJUCquJK7S5ymLCeXiuN+LSJuNCv/DF4SIaWrDJZLGTo6IjOGjDK8BKZAjhQaqdXaM+aCPopqpLaWrKVf0uEk6YDTMQKk0Hjrql4KnjJhGu843U9IE0MapOMr9UAFpBq1tHbjR3nZczRlxjbN9z/4GaKiALBM+3B6XeKPppKMV Admin@STUDENT08" > ~/.ssh/authorized_keys'
+sudo runuser -l jenkins -c 'chmod 600 .ssh/authorized_keys'
