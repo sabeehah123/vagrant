@@ -4,30 +4,6 @@ sudo runuser -l jenkins -c 'mkdir .ssh'
 sudo runuser -l jenkins -c 'chmod -R 700 .ssh'
 sudo runuser -l jenkins -c 'cd .ssh'
 sudo runuser -l jenkins -c 'touch .ssh/authorized_keys'
-sudo runuser -l jenkins -c 'echo "MIIEpAIBAAKCAQEA1Mtgx35BZhc8yVA4pQVCIZHFrLbhiGyGV7zIdZFAvSN0Dn6r
-04rvEwg0cT9FzpvBGH5iy+04CrH5OZvE+VT/Raq1VdCze8dpMyb4njpoVi34yKji
-EoZlpayZC7HMiOAHmBWn27WkrZfC1QpFTfc8T06PaiW6HVXp/iERt3x1CZ40iVAq
-riSu0ucpiwnl4rjfi0ibjQr/wxeEiGlqwyWSxk6OiIzhowyvASmQI4UGqnV2jPmg
-j6KaqS2lqylX9LhJOmA0zECpNB466peCp4yYRrvON1PSBNDGqTjK/VABaQatbR24
-0d52XM0ZcY2zfc/+BmiogCwTPtwel3ij6aSjFQIDAQABAoIBAFF2XmFguyabJMEo
-vdam0a9KP/Oju2lfqnpyIgeoCLGfnfFimuMMIAQYMwNbppy20dBPqgDJmpe1lGRy
-dpDA8ky4Ul083Uk4iNR1Sd5BG+pKBSDETm+rFcS784cflN6dbSrSt4UL37Q5EfQ+
-z1NOn774ozyOntZWKpMIE+E7ew6n2Fyueb5yh69+wvYJPJl2JiJdGI98hV55GnDg
-db9YNY0FxAFh40OqLVji9gASKe6vvfaQ9QMKxdzKn10EbMEgJcJCT8cRwfH11sW9
-2TBOHs07anFdtAGCpafdRzTDAX1xNi75g4nnGe5ShOZ88b1S1KO+/WtvXqxvNDEg
-bBDB2u0CgYEA66UYC3ICe1WNifvolHXWtC4nkCivmkiOLy7Vwxdu68tXllhO/N64
-uQAUnwqTfWPKoliTIfNDMndIKnSaVxnpQWsUccGs0DaFwqUEvPg7Jh7iF/CHu9zt
-xfvicZoOAeo996gG18/LDP5PozQG8EXidFpyjgmGcAoRtBSMV43FlPsCgYEA5yz7
-uNy5+B/ZaNGGAF7TS+shm0IFVHLjmy8ey83QikEu5UJVf5JI3pNwryaYJuoFcO4T
-1CXzdptghp1CwOxPG7Pol4yjaHek2X8ldgC1r4wuUv88ww4N9/fYX7auTrZGT5af
-+wC47/OFNuK5ukRheOlR35/u6LSXzKg958JOiy8CgYEAtReqM9mJOLlVzc3vPnCU
-8OFrfCkYUqwhwPbwRj6y+rjJdfwlr8WGFn6OWm8pS7quFjeV0wh9AsKSjjYQCpIa
-JTEihA3APj84ao6g5oyqADDJtnYeCezOOlHKA13OGACpYLMblyzUsgaasySflHVQ
-g/Sihq+hRmcmlcsY04xbZJMCgYEAtrZxBf0+5wOVPClN9gD8k+Z1m1alC8f6aO7n
-MkGrb3pxbDXviXK/MVvrFiQ04ZzZTBZ/iY+tS7MmqX6mAgFDzSt2zEEV7j2SB21c
-2FVbRDJRcrvU9H2pQLGdTJkAT6n1DHaKX0KE6PHZ+jVcggIF4CDY2xx3IWmLCPB4
-bTLADXUCgYAWAe4UgGHboihF3OnWNf+nJdN4MEEygFMTSSoEcADPXWIcuA4mCuiA
-+lI/zP/itf8Im6pyBF9EcARXgGqX3Ms6ji32VtrnLW/ZXP4ADZnfZ9k9t2UHPA5K
-pfa/f6X7MiqI/PqaVZEOkE+mekJOo7Xd++UComw8iF6EBqe7sSFzuQ==" > ~/.ssh/authorized_keys'
+sudo runuser -l jenkins -c 'echo "<enter private keys here> > ~/.ssh/authorized_keys'
 sudo runuser -l jenkins -c 'chmod 600 .ssh/authorized_keys'
 
